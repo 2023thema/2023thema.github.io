@@ -31,6 +31,10 @@ footer {
     margin-top: 10px;
 }
 
+#background{
+    background-image: url("/images/maze.jpg");
+}
+
 /*미디어 뭐리!!!!!!!!!!*/
 @media (max-width:600px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
     #main {
