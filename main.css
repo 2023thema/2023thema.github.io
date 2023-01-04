@@ -33,6 +33,10 @@ footer {
 
 #background{
     background-image: url("images/maze.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
 }
 
 /*미디어 뭐리!!!!!!!!!!*/
