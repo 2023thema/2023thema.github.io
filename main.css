@@ -8,7 +8,7 @@ div {
 }
 
 #background{
-    background-image: url("/maze.jpg");
+    background-image: url("/images/maze.jpg");
     background-size: contain;
 }
 
