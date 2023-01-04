@@ -7,6 +7,11 @@ div {
     text-align: center;
 }
 
+#background{
+    background-image: url("/maze.jpg");
+    background-size: contain;
+}
+
 #main {
     display: grid;
     grid-template-columns: 3fr 1fr;
