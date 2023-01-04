@@ -8,6 +8,10 @@ div {
     margin-top: 10px;
 }
 
+img{
+    margin-top: 10px;
+}
+
 #background{
     background-image: url("/images/maze.jpg");
     background-size: contain;
