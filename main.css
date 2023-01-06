@@ -14,7 +14,7 @@ div {
     font-family: "maple";
 }
 
-link {
+a {
     font-family: "maple";
 }
 
@@ -25,7 +25,13 @@ link {
 }
 
 #problem {
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#story {
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 
 #title {
@@ -38,11 +44,11 @@ footer {
     font-family: "maple";
 }
 
-#maze {
+#picture {
     height: 100%;
 }
 
-#reference{
+#reference {
     font-size: 8px;
     font-family: "maple";
 }
