@@ -1,41 +1,44 @@
-@font-face{
+@font-face {
     src: url("fonts/Maplestory_Light.ttf");
     font-family: "maple";
     font-weight: normal;
     font-style: normal;
 }
 
-body{
+body {
     margin: 0;
     overflow-x: hidden;
 }
 
-div{
+div {
     font-family: "maple";
+}
+
+.container {
+    height: 95%;
+    display: grid;
+    align-items: center;
 }
 
 #problem {
-    font-size: 30px;
-    padding: 20px;
+    font-size: 18px;
 }
 
-#title{
+#title {
     font-size: 30px;
     font-weight: bold;
-    padding: 20px;
 }
 
 footer {
-    font-size: 30px;
-    padding: 10px;
+    font-size: 18px;
     font-family: "maple";
 }
 
-#maze{
-    padding: 10px;
+#maze {
+    height:100%;
 }
 
-.background{
+.background {
     text-align: center;
     position: relative;
     width: 100vw;
@@ -43,7 +46,7 @@ footer {
     z-index: 1;
 }
 
-.background::after{
+.background::after {
     background: url("./images/maze.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,16 +63,18 @@ footer {
 
 
 /*미디어 뭐리!!!!!!!!!!*/
-@media (max-width:600px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
-    .background{
+@media (max-width:600px) {
+
+    /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
+    .background {
         text-align: center;
         position: relative;
         width: 100vw;
         height: 100vh;
         z-index: 1;
     }
-    
-    .background::after{
+
+    .background::after {
         background: url("./images/maze.jpg");
         background-repeat: no-repeat;
         background-size: cover;
