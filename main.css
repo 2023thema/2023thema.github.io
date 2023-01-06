@@ -7,7 +7,6 @@
 
 body {
     margin: 0;
-    overflow-x: hidden;
 }
 
 div {
@@ -20,6 +19,7 @@ a {
 
 .container {
     height: 100%;
+    width: 100%;
     display: grid;
     align-items: center;
 }
@@ -27,6 +27,14 @@ a {
 #problem {
     font-size: 16px;
     margin-bottom: 5px;
+}
+
+#problem-container-5 {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
 #story {
