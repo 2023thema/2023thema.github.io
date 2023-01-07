@@ -16,7 +16,7 @@ div {
 
 a {
     font-family: "maple";
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .container {
@@ -27,8 +27,10 @@ a {
 }
 
 #problem {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 4px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 #problem-container-5 {
@@ -40,12 +42,14 @@ a {
 }
 
 #story {
-    font-size: 12px;
+    font-size: 28px;
     margin-bottom: 4px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 #title {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -84,33 +88,4 @@ footer {
     z-index: -1;
     top: 0;
     left: 0;
-}
-
-
-/*미디어 뭐리!!!!!!!!!!*/
-@media (max-width:600px) {
-
-    /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
-    .background {
-        text-align: center;
-        position: relative;
-        width: 100vw;
-        height: 100vh;
-        z-index: 1;
-    }
-
-    .background::after {
-        background: url("./images/maze.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        content: "";
-        opacity: 0.5;
-        z-index: -1;
-        top: 0;
-        left: 0;
-    }
 }
