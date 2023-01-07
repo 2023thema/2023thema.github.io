@@ -16,6 +16,7 @@ div {
 
 a {
     font-family: "maple";
+    font-size: 28px;
 }
 
 .container {
@@ -27,7 +28,7 @@ a {
 
 #problem {
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 #problem-container-5 {
@@ -40,16 +41,16 @@ a {
 
 #story {
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 #title {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 footer {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "maple";
 }
 
