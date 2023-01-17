@@ -59,10 +59,19 @@ a {
 }
 
 #story {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 4px;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+#sentence {
+    font-size: 28px;
+    margin-top: 28px;
+    margin-bottom: 32px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: italic;
 }
 
 #title {
