@@ -535,7 +535,11 @@
     <script>
         window.onload = function () {
             setTimeout(function () {
-                window.scrollTo(0, document.body.scrollHeight);
+                let element = document.querySelector(".background")
+
+                console.log(document.body.scrollHeight);
+                console.log(element.scrollHeight);
+                window.scrollTo(0, document.body.scrollHeight - 3 * element.scrollHeight);
             }, 0)
         }
 
