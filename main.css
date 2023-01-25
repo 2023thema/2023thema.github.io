@@ -16,7 +16,7 @@ div {
 
 a {
     font-family: "maple";
-    font-size: 40px;
+    font-size: 48px;
 }
 
 .container {
@@ -27,7 +27,7 @@ a {
 }
 
 #problem {
-    font-size: 28px;
+    font-size: 40px;
     margin-bottom: 4px;
     margin-left: 5%;
     margin-right: 5%;
@@ -59,14 +59,14 @@ a {
 }
 
 #story {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 4px;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 #sentence {
-    font-size: 28px;
+    font-size: 40px;
     margin-top: 28px;
     margin-bottom: 32px;
     margin-left: 5%;
@@ -75,7 +75,7 @@ a {
 }
 
 #title {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bold;
 }
 
@@ -86,11 +86,6 @@ footer {
 
 #picture {
     height: 100%;
-}
-
-#reference {
-    font-size: 8px;
-    font-family: "maple";
 }
 
 .modal-background {
@@ -179,4 +174,15 @@ footer {
     transform: scale(1.8);
     opacity: 0;
     transition: .3s;
+}
+
+.question {
+    all: unset;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    padding: 0;
+    margin: 0;
+    z-index: 5000;
+    font-size: 40px;
 }
