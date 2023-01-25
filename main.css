@@ -149,7 +149,7 @@ footer {
 }
 
 .background::after {
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -161,4 +161,22 @@ footer {
     z-index: -1;
     top: 0;
     left: 0;
+}
+
+.top-btn {
+    all: unset;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 50px;
+    padding: 0;
+    margin: 0;
+    background-image: url("./images/arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 5000;
+    transform: scale(1.8);
+    opacity: 0;
+    transition: .3s;
 }
