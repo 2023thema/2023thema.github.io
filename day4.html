@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2023theme</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="jquery.js"></script>
+    <script src="jquery.fadethis.js"></script>
+</head>
+
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="slide-bottom">
+                <div id="title">아직 공개되지 않은 페이지입니다!</div>
+            </div>
+        </div>
+    </div>
+    <a class="top-btn"></a>
+    <a href="https://open.kakao.com/o/sDcROJ0e" class="question">민원 창구</a>
+    <a href="./index.html" class="home">메인화면으로</a>
+    <script>$(window).fadeThis();</script>
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                let element = document.querySelector(".background")
+
+                console.log(document.body.scrollHeight);
+                console.log(element.scrollHeight);
+                window.scrollTo(0, document.body.scrollHeight - 3 * element.scrollHeight);
+            }, 0)
+        }
+
+        function show() {
+            let elements = document.querySelectorAll(".modal-background");
+
+            for (let elem of elements) {
+                elem.className = "modal-background show"
+            }
+        }
+
+        function close() {
+            let elements = document.querySelectorAll(".modal-background");
+
+            for (let elem of elements) {
+                elem.className = "modal-background"
+            }
+        }
+
+        let slist = document.querySelectorAll("#show");
+
+        for (let s of slist) {
+            s.addEventListener("click", show)
+        }
+
+        let clist = document.querySelectorAll("#close");
+
+        for (let c of clist) {
+            c.addEventListener("click", close)
+        }
+
+        let topBtn = document.querySelector(".top-btn");
+        topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+        window.onscroll = () => window.scrollY > 500 ? topBtn.style.opacity = 1 : topBtn.style.opacity = 0
+    </script>
+</body>
+
+</html>
