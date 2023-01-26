@@ -24,13 +24,24 @@ a {
     width: 100%;
     display: grid;
     align-items: center;
+    place-items: center;
 }
 
 #problem {
     font-size: 40px;
     margin-bottom: 4px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 90vw;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#solve {
+    font-size: 40px;
+    margin-bottom: 4px;
+    width: 90%;
+    font-weight: bold;
+    text-align: center;
 }
 
 #problem-container-5 {
@@ -61,16 +72,15 @@ a {
 #story {
     font-size: 40px;
     margin-bottom: 4px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 90vw;
+    text-align: center;
 }
 
 #sentence {
     font-size: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 90vw;
     font-style: italic;
 }
 
