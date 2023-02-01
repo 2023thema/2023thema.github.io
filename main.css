@@ -27,6 +27,76 @@ a {
     place-items: center;
 }
 
+article {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #1f4974;
+    border-bottom-left-radius: 4vh;
+    border-bottom-right-radius: 4vh;
+    color: #fff;
+    height: 8vh;
+    z-index: 50;
+}
+
+nav {
+    position: fixed;
+    top: 4vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 4vh;
+    border-bottom-right-radius: 4vh;
+    background-color: #3a5a79;
+    color: #fff;
+    height: 7vh;
+    z-index: 30;
+}
+
+footer {
+    position: fixed;
+    width: 100vw;
+    top: 92vh;
+    justify-content: center;
+    background-color: #1f4974;
+    border-top-left-radius: 4vh;
+    border-top-right-radius: 4vh;
+    color: #fff;
+    height: 8vh;
+    z-index: 50;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vh;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2vh;
+}
+
+.index-problem {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vh;
+}
+
+.index-contents {
+    height: 70vh;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    font-size: 2vh;
+}
+
 #problem {
     font-size: 40px;
     margin-bottom: 4px;
@@ -54,7 +124,6 @@ a {
 
 #index-container {
     width: 100%;
-    display: grid;
     place-items: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -70,28 +139,38 @@ a {
 }
 
 #story {
-    font-size: 40px;
-    margin-bottom: 4px;
+    font-size: 5vw;
     width: 90vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
     text-align: center;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    height: 20vh;
+    color: rgb(29, 8, 8);
 }
 
 #sentence {
-    font-size: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    font-size: 4vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    display: grid;
+    place-items: center;
+    align-items: center;
     width: 90vw;
     font-style: italic;
+    height: 20vh;
 }
 
 #title {
-    font-size: 48px;
+    font-size: 12vw;
     font-weight: bold;
-}
-
-footer {
-    font-size: 16px;
-    font-family: "maple";
+    text-align: center;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    height: 20vh;
 }
 
 #picture {
@@ -149,12 +228,11 @@ footer {
     text-align: center;
     position: relative;
     width: 100vw;
-    height: 100vh;
     z-index: 2;
 }
 
 .background::after {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -187,24 +265,48 @@ footer {
 }
 
 .question {
-    all: unset;
     position: fixed;
-    right: 50px;
-    top: 50px;
+    top: 8vh;
+    right: 12vw;
     padding: 0;
     margin: 0;
     z-index: 5000;
-    font-size: 40px;
+    color: rgb(255, 255, 255); 
+    font-weight:bold; 
+    text-decoration-line: none;
+    font-size: 2vh;
 }
 
 
 .home {
-    all: unset;
     position: fixed;
-    left: 50px;
-    top: 50px;
+    top: 8vh;
+    left: 12vw;
     padding: 0;
     margin: 0;
     z-index: 5000;
-    font-size: 40px;
+    color: rgb(255, 255, 255); 
+    font-weight:bold; 
+    text-decoration-line: none;
+    font-size: 2vh;
+}
+
+.btn {
+    color: rgb(255, 255, 255); 
+    font-weight:bold; 
+    text-decoration-line: none;
+    font-size: 3vh;
+}
+
+.roundbtn {
+    width: 80vw;
+    height: 6vh;
+    
+    background-color: #346391;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    border-top-right-radius: 4vh;
+    border-bottom-left-radius: 4vh;
+    z-index: 40;
 }
