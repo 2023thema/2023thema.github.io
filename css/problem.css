@@ -12,7 +12,28 @@
     margin-top: 4vh;
     margin-bottom: 4vh;
     text-align: justify;
-    font-size: 3vh;
+    font-size: 4vw;
+    font-family: 'noto';
+}
+
+.line {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'noto';
+    font-style: italic; 
+}
+
+.problem {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    text-align: center;
+    font-size: 6vw;
     font-family: 'noto';
 }
 
