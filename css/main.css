@@ -46,6 +46,20 @@ header {
     z-index: 50;
 }
 
+nav {
+    position: fixed;
+    top: 4vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 4vh;
+    border-bottom-right-radius: 4vh;
+    background-color: #3a5a79;
+    color: #fff;
+    height: 7vh;
+    z-index: 30;
+}
+
 nav ul {
     text-align: center;
     width: 80vw;
