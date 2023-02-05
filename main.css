@@ -46,18 +46,28 @@ header {
     z-index: 50;
 }
 
-nav {
-    position: fixed;
-    top: 4vh;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    border-bottom-left-radius: 4vh;
-    border-bottom-right-radius: 4vh;
-    background-color: #3a5a79;
-    color: #fff;
-    height: 7vh;
-    z-index: 30;
+nav ul {
+    text-align: center;
+    width: 80vw;
+    background-color: aqua;
+    list-style: none;
+    padding-left: 0px;
+    margin-top:0%;
+}
+
+nav li a {
+    color: black;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+nav li a:hover {
+    background-color: #2c3e50;
+}
+
+.menuBtn {
+    display: block;
+    cursor: pointer;
 }
 
 footer {
@@ -271,8 +281,8 @@ h3 {
     padding: 0;
     margin: 0;
     z-index: 5000;
-    color: rgb(255, 255, 255); 
-    font-weight:bold; 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     text-decoration-line: none;
     font-size: 2vh;
 }
@@ -285,15 +295,15 @@ h3 {
     padding: 0;
     margin: 0;
     z-index: 5000;
-    color: rgb(255, 255, 255); 
-    font-weight:bold; 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     text-decoration-line: none;
     font-size: 2vh;
 }
 
 .btn {
-    color: rgb(255, 255, 255); 
-    font-weight:bold; 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     text-decoration-line: none;
     font-size: 3vh;
 }
@@ -301,7 +311,7 @@ h3 {
 .roundbtn {
     width: 80vw;
     height: 6vh;
-    
+
     background-color: #346391;
     display: grid;
     place-items: center;

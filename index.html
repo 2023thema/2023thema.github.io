@@ -9,11 +9,11 @@
     <script src="jquery.fadethis.js"></script>
 </head>
 
-<header>
-    <h2>새내기의 모험:전설의 마법서</h2>
-</header>
 
 <body>
+    <header>
+        <h2>새내기의 모험:전설의 마법서</h2>
+    </header>
     <div class="background" style="height: 80vh; margin-top: 12vh;">
         <div class="index-contents">
             <div class="roundbtn">
@@ -21,38 +21,208 @@
                     스토리 보기
                 </a>
             </div>
-            <div class="roundbtn">
-                <a href="./day1.html" class="btn">
-                    1일차
-                </a>
+            <div>
+                <div class="roundbtn menuBtn-1">
+                    <a class="btn">
+                        1일차
+                    </a>
+                </div>
+                <nav id="navigation-list-1">
+                    <ul>
+                        <li><a href="./day1_1.html">1번</a></li>
+                        <li><a href="./day1_2.html">2번</a></li>
+                        <li><a href="./day1_3.html">3번</a></li>
+                        <li><a href="./day1_4.html">4번</a></li>
+                        <li><a href="./day1_5.html">5번</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="roundbtn">
-                <a href="./day2.html" class="btn">
-                    2일차
-                </a>
+            <div>
+                <div class="roundbtn menuBtn-2">
+                    <a class="btn">
+                        2일차
+                    </a>
+                </div>
+                <nav id="navigation-list-2">
+                    <ul>
+                        <li><a href="./day2_1.html">1번</a></li>
+                        <li><a href="./day2_2.html">2번</a></li>
+                        <li><a href="./day2_3.html">3번</a></li>
+                        <li><a href="./day2_4.html">4번</a></li>
+                        <li><a href="./day2_5.html">5번</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="roundbtn">
-                <a href="./day3.html" class="btn">
-                    3일차
-                </a>
+            <div>
+                <div class="roundbtn menuBtn-3">
+                    <a class="btn">
+                        3일차
+                    </a>
+                </div>
+                <nav id="navigation-list-3">
+                    <ul>
+                        <li><a href="./day3_1.html">1번</a></li>
+                        <li><a href="./day3_2.html">2번</a></li>
+                        <li><a href="./day3_3.html">3번</a></li>
+                        <li><a href="./day3_4.html">4번</a></li>
+                        <li><a href="./day3_5.html">5번</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="roundbtn">
-                <a href="./day4.html" class="btn">
-                    4일차
-                </a>
+            <div>
+                <div class="roundbtn menuBtn-4">
+                    <a class="btn">
+                        4일차
+                    </a>
+                </div>
+                <nav id="navigation-list-4">
+                    <ul>
+                        <li><a href="./day4_1.html">1번</a></li>
+                        <li><a href="./day4_2.html">2번</a></li>
+                        <li><a href="./day4_3.html">3번</a></li>
+                        <li><a href="./day4_4.html">4번</a></li>
+                        <li><a href="./day4_5.html">5번</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="roundbtn">
-                <a href="./day5.html" class="btn">
-                    5일차
-                </a>
+            <div>
+                <div class="roundbtn menuBtn-5">
+                    <a class="btn">
+                        5일차
+                    </a>
+                </div>
+                <nav id="navigation-list-5">
+                    <ul>
+                        <li><a href="./day5_1.html">1번</a></li>
+                        <li><a href="./day5_2.html">2번</a></li>
+                        <li><a href="./day5_3.html">3번</a></li>
+                        <li><a href="./day5_4.html">4번</a></li>
+                        <li><a href="./day5_5.html">5번</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
+    <script>
+        jQuery(document).ready(function ($) {
+            $("#navigation-list-1").hide();
+            $(".menuBtn-1").click(function () {
+                $("#navigation-list-2").hide();
+                $("#navigation-list-3").hide();
+                $("#navigation-list-4").hide();
+                $("#navigation-list-5").hide();
+                $("#navigation-list-1").slideToggle(300);
+                var Btnheight = $(".menuBtn-1").height();
+                var vh = $(".roundbtn").height();
+                $(".menuBtn-1").css("height",  Btnheight == vh ? "4vh" : "6vh");
+                $(".menuBtn-2").css("height", "6vh");
+                $(".menuBtn-3").css("height", "6vh");
+                $(".menuBtn-4").css("height", "6vh");
+                $(".menuBtn-5").css("height", "6vh");
+            });
+        });
+        jQuery(document).ready(function ($) {
+            $("#navigation-list-2").hide();
+            $(".menuBtn-2").click(function () {
+                $("#navigation-list-1").hide();
+                $("#navigation-list-3").hide();
+                $("#navigation-list-4").hide();
+                $("#navigation-list-5").hide();
+                $("#navigation-list-2").slideToggle(300);
+                var Btnheight = $(".menuBtn-2").height();
+                var vh = $(".roundbtn").height();
+                $(".menuBtn-1").css("height", "6vh");
+                $(".menuBtn-2").css("height",  Btnheight == vh ? "4vh" : "6vh");
+                $(".menuBtn-3").css("height", "6vh");
+                $(".menuBtn-4").css("height", "6vh");
+                $(".menuBtn-5").css("height", "6vh");
+            });
+        });
+        jQuery(document).ready(function ($) {
+            $("#navigation-list-3").hide();
+            $(".menuBtn-3").click(function () {
+                $("#navigation-list-1").hide();
+                $("#navigation-list-2").hide();
+                $("#navigation-list-4").hide();
+                $("#navigation-list-5").hide();
+                $("#navigation-list-3").slideToggle(300);
+                var Btnheight = $(".menuBtn-3").height();
+                var vh = $(".roundbtn").height();
+                $(".menuBtn-1").css("height", "6vh");
+                $(".menuBtn-2").css("height", "6vh");
+                $(".menuBtn-3").css("height",  Btnheight == vh ? "4vh" : "6vh");
+                $(".menuBtn-4").css("height", "6vh");
+                $(".menuBtn-5").css("height", "6vh");
+            });
+        });
+        jQuery(document).ready(function ($) {
+            $("#navigation-list-4").hide();
+            $(".menuBtn-4").click(function () {
+                $("#navigation-list-1").hide();
+                $("#navigation-list-2").hide();
+                $("#navigation-list-3").hide();
+                $("#navigation-list-5").hide();
+                $("#navigation-list-4").slideToggle(300);
+                var Btnheight = $(".menuBtn-4").height();
+                var vh = $(".roundbtn").height();
+                $(".menuBtn-1").css("height", "6vh");
+                $(".menuBtn-2").css("height", "6vh");
+                $(".menuBtn-3").css("height", "6vh");
+                $(".menuBtn-4").css("height", Btnheight == vh ? "4vh" : "6vh");
+                $(".menuBtn-5").css("height", "6vh");
+            });
+        });
+        jQuery(document).ready(function ($) {
+            $("#navigation-list-5").hide();
+            $(".menuBtn-5").click(function () {
+                $("#navigation-list-1").hide();
+                $("#navigation-list-2").hide();
+                $("#navigation-list-3").hide();
+                $("#navigation-list-4").hide();
+                $("#navigation-list-5").slideToggle(300);
+                var Btnheight = $(".menuBtn-5").height();
+                var vh = $(".roundbtn").height();
+                $(".menuBtn-1").css("height", "6vh");
+                $(".menuBtn-2").css("height", "6vh");
+                $(".menuBtn-3").css("height", "6vh");
+                $(".menuBtn-4").css("height", "6vh");
+                $(".menuBtn-5").css("height",  Btnheight == vh ? "4vh" : "6vh");
+            });
+        });
+
+        function show() {
+            let elements = document.querySelectorAll(".modal-background");
+
+            for (let elem of elements) {
+                elem.className = "modal-background show"
+            }
+        }
+
+        function close() {
+            let elements = document.querySelectorAll(".modal-background");
+
+            for (let elem of elements) {
+                elem.className = "modal-background"
+            }
+        }
+
+        let slist = document.querySelectorAll("#show");
+
+        for (let s of slist) {
+            s.addEventListener("click", show)
+        }
+
+        let clist = document.querySelectorAll("#close");
+
+        for (let c of clist) {
+            c.addEventListener("click", close)
+        }
+    </script>
+    <footer>
+        <h3>2023학년도 새내기새로배움터<br />테마기획팀</h3>
+    </footer>
 </body>
 
-<footer>
-    <h3>2023학년도 새내기새로배움터<br />테마기획팀</h3>
-</footer>
 
 
 
