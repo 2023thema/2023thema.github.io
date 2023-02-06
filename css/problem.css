@@ -1,7 +1,6 @@
 @font-face {
     src: url("../fonts/NotoSansKR-Light.otf");
     font-family: "noto";
-    font-weight: normal;
     font-style: normal;
 }
 
@@ -12,8 +11,9 @@
     margin-top: 4vh;
     margin-bottom: 4vh;
     text-align: justify;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-family: 'noto';
+    word-break: keep-all;
 }
 
 .line {
@@ -22,9 +22,10 @@
     margin-top: 4vh;
     margin-bottom: 4vh;
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: 'noto';
     font-style: italic; 
+    word-break: keep-all;
 }
 
 .problem {
@@ -33,8 +34,21 @@
     margin-top: 4vh;
     margin-bottom: 4vh;
     text-align: center;
-    font-size: 6vw;
+    font-size: 5vw;
     font-family: 'noto';
+    word-break: keep-all;
+}
+
+.quiz {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'noto';
+    font-weight:bold; 
+    word-break: keep-all;
 }
 
 .submitbtn {
@@ -47,8 +61,14 @@
 }
 
 .submitbtn {
+    font-family: 'noto';
     text-align: center;
     color: rgb(0, 0, 0); 
     font-weight:bold; 
     text-decoration-line: none;
+}
+
+img {
+    margin: auto;
+    display: block;
 }
