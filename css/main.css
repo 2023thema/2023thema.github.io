@@ -382,9 +382,10 @@ h3 {
 .roundbtn-story {
     width: 95vw;
     height: 5vh;
+    max-width: 43.325vh;
 
     background-image: url("../images/story.png");
-    background-size: 95vw 5vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -395,9 +396,10 @@ h3 {
 .roundbtn-1 {
     width: 95vw;
     height: 5vh;
+    max-width: 43.325vh;
 
     background-image: url("../images/day1.png");
-    background-size: 95vw 5vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -409,9 +411,10 @@ h3 {
 .roundbtn-2 {
     width: 95vw;
     height: 5vh;
+    max-width: 43.325vh;
 
     background-image: url("../images/day2.png");
-    background-size: 95vw 5vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -423,9 +426,10 @@ h3 {
 .roundbtn-3 {
     width: 95vw;
     height: 5vh;
+    max-width: 43.325vh;
 
     background-image: url("../images/day3.png");
-    background-size: 95vw 5vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -437,9 +441,10 @@ h3 {
 .roundbtn-4 {
     width: 95vw;
     height: 5vh;
+    max-width: 43.325vh;
 
     background-image: url("../images/day4.png");
-    background-size: 95vw 5vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -451,9 +456,10 @@ h3 {
 .roundbtn-5 {
     width: 95vw;
     height: 5vh;
+    max-width: 43.325vh;
 
     background-image: url("../images/day5.png");
-    background-size: 95vw 5vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -463,13 +469,13 @@ h3 {
 }
 
 .lock{
-    position:relative;
-    top:-3.5vh;
+    position: absolute;
     width: 95vw;
     height: 5vh;
+    max-width: 43.325vh;
 
     background-image: url("../images/lock.png");
-    background-size: 90vw 5vh;
+    background-size: 94.7% 100%;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 40;
