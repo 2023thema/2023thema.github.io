@@ -86,7 +86,7 @@ nav {
     width: 80vw;
     max-width: 36.479vh;
 
-    background-image: url("../images/day1_bg.png");
+    background-image: url("../images/scroll/contents/day1.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -100,7 +100,7 @@ nav {
     text-align: center;
     width: 80vw;
     max-width: 36.479vh;
-    background-image: url("../images/day2_bg.png");
+    background-image: url("../images/scroll/contents/day2.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -114,7 +114,7 @@ nav {
     text-align: center;
     width: 80vw;
     max-width: 36.479vh;
-    background-image: url("../images/day3_bg.png");
+    background-image: url("../images/scroll/contents/day3.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -128,7 +128,7 @@ nav {
     text-align: center;
     width: 80vw;
     max-width: 36.479vh;
-    background-image: url("../images/day4_bg.png");
+    background-image: url("../images/scroll/contents/day4.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -142,7 +142,7 @@ nav {
     text-align: center;
     width: 80vw;
     max-width: 36.479vh;
-    background-image: url("../images/day5_bg.png");
+    background-image: url("../images/scroll/contents/day5.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -400,6 +400,7 @@ h3 {
 }
 
 .btn {
+    font-family: 'noto';
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration-line: none;
@@ -425,7 +426,7 @@ h3 {
     height: 5vh;
     max-width: 43.325vh;
 
-    background-image: url("../images/day1.png");
+    background-image: url("../images/scroll/unroll/day1.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -440,7 +441,7 @@ h3 {
     height: 5vh;
     max-width: 43.325vh;
 
-    background-image: url("../images/day2.png");
+    background-image: url("../images/scroll/unroll/day2.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -455,7 +456,7 @@ h3 {
     height: 5vh;
     max-width: 43.325vh;
 
-    background-image: url("../images/day3.png");
+    background-image: url("../images/scroll/unroll/day3.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -470,7 +471,7 @@ h3 {
     height: 5vh;
     max-width: 43.325vh;
 
-    background-image: url("../images/day4.png");
+    background-image: url("../images/scroll/unroll/day4.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -485,7 +486,7 @@ h3 {
     height: 5vh;
     max-width: 43.325vh;
 
-    background-image: url("../images/day5.png");
+    background-image: url("../images/scroll/unroll/day5.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
