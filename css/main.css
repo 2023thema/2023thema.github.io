@@ -83,6 +83,8 @@ nav {
 .navi-1{
     text-align: center;
     width: 80vw;
+    max-width: 36.479vh;
+
     background-image: url("../images/day1_bg.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -96,6 +98,7 @@ nav {
 .navi-2{
     text-align: center;
     width: 80vw;
+    max-width: 36.479vh;
     background-image: url("../images/day2_bg.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -109,6 +112,7 @@ nav {
 .navi-3{
     text-align: center;
     width: 80vw;
+    max-width: 36.479vh;
     background-image: url("../images/day3_bg.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -122,6 +126,7 @@ nav {
 .navi-4{
     text-align: center;
     width: 80vw;
+    max-width: 36.479vh;
     background-image: url("../images/day4_bg.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -135,6 +140,7 @@ nav {
 .navi-5{
     text-align: center;
     width: 80vw;
+    max-width: 36.479vh;
     background-image: url("../images/day5_bg.png");
     background-repeat: no-repeat;
     background-position: bottom;
