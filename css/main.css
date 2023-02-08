@@ -59,6 +59,7 @@ header {
     place-items: center;
     color: #fff;
     margin: auto;
+    font-size:2vh;
     height: 4vh;
     bottom: 2vh;
     z-index: 50;
