@@ -159,6 +159,12 @@ nav li a {
     -webkit-transition: all 0.4s;
     font-family: 'noto';
     font-size: 2vh;
+    font-weight: bold;
+}
+
+nav li img {
+    height: 3vh; 
+    vertical-align: middle;
 }
 
 nav li a:hover {
@@ -327,6 +333,7 @@ h3 {
 
     /* 임시 지정 */
     width: 80%;
+    max-width: 400px;
     height: 60%;
 
     /* 초기에 약간 아래에 배치 */
@@ -498,12 +505,12 @@ h3 {
 
 .lock{
     position: absolute;
-    width: 95vw;
-    height: 5.6vh;
-    max-width: 43.325vh;
+    width: 80vw;
+    height: 6.5vh;
+    max-width: 38.325vh;
 
     background-image: url("../images/lock.png");
-    background-size: 88% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 40;
