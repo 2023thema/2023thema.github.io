@@ -161,6 +161,17 @@ nav {
     margin: 0 auto;
 }
 
+nav li {
+    position:relative;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: grid;
+    place-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+}
+
 nav li a {
     color: rgb(0, 0, 0);
     transition: all 0.4s;
