@@ -66,15 +66,16 @@ header {
 
 nav {
     position: fixed;
-    top: 4vh;
-    width: 100vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 5vh;
+    width: 80vw;
+    max-width: 50vh;
+    margin: auto;
+    justify-content: space-between;
     display: flex;
-    justify-content: space-around;
-    border-bottom-left-radius: 4vh;
-    border-bottom-right-radius: 4vh;
-    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
-    height: 7vh;
+    height: 3vh;
     z-index: 30;
 }
 
@@ -393,32 +394,6 @@ h3 {
     transition: .3s;
 }
 
-.question {
-    position: fixed;
-    top: 8vh;
-    right: 12vw;
-    padding: 0;
-    margin: 0;
-    z-index: 5000;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-decoration-line: none;
-    font-size: 2vh;
-}
-
-
-.home {
-    position: fixed;
-    top: 8vh;
-    left: 12vw;
-    padding: 0;
-    margin: 0;
-    z-index: 5000;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-decoration-line: none;
-    font-size: 2vh;
-}
 
 .btn {
     font-family: 'noto';
@@ -533,37 +508,39 @@ h3 {
 .top_banner {
     z-index: 5;
 
-    background-image: url("../images/main/top_banner.png");
+    background-image: url("../images/main/cloud.png");
     background-repeat: repeat-x;
-    background-position: top;
-    background-size: auto 100vh;
+    background-position: center;
+    background-size: contain;
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 16vh;
     pointer-events: none; 
 }
 
 .bottom_banner {
     z-index: 5;
 
-    background-image: url("../images/main/bottom_banner.png");
+    background-image: url("../images/main/cloud.png");
     background-repeat: repeat-x;
-    background-position: top;
-    background-size: auto 100vh;
+    background-position: center;
+    background-size: contain;
+    transform: rotate(180deg);
     position: fixed;
+    top: 84vh;
     width: 100vw;
-    height: 100vh;
+    height: 16vh;
     pointer-events: none; 
 }
 
 .main_logo { 
     z-index: 5;
-    margin-top: 2vh;
     background-image: url("../images/main/main_logo.png");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: contain;
     position: fixed;
+    top: 1vh;
     width: 100vw;
     height: 12vh;
 }
@@ -571,9 +548,9 @@ h3 {
 .ot_logo {
     position: fixed;
     width: 100vw;
-    top: 90vh;
+    top: 93vh;
     justify-content: center;
-    height: 8vh;
+    height: 6vh;
     z-index: 5;
 
     background-image: url("../images/main/ot_logo.svg");
