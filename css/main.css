@@ -89,6 +89,7 @@ nav {
     background-size: cover;
     padding-left: 0;
     padding-bottom: 4vh;
+    padding-top: 1vh;
     list-style: none;
     margin: 0 auto;
 }
@@ -97,12 +98,14 @@ nav {
     text-align: center;
     width: 80vw;
     max-width: 36.479vh;
+
     background-image: url("../images/scroll/contents/day2.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
     padding-left: 0;
     padding-bottom: 4vh;
+    padding-top: 1vh;
     list-style: none;
     margin: 0 auto;
 }
@@ -111,12 +114,14 @@ nav {
     text-align: center;
     width: 80vw;
     max-width: 36.479vh;
+
     background-image: url("../images/scroll/contents/day3.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
     padding-left: 0;
     padding-bottom: 4vh;
+    padding-top: 1vh;
     list-style: none;
     margin: 0 auto;
 }
@@ -125,12 +130,14 @@ nav {
     text-align: center;
     width: 80vw;
     max-width: 36.479vh;
+
     background-image: url("../images/scroll/contents/day4.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
     padding-left: 0;
     padding-bottom: 4vh;
+    padding-top: 1vh;
     list-style: none;
     margin: 0 auto;
 }
@@ -139,14 +146,27 @@ nav {
     text-align: center;
     width: 80vw;
     max-width: 36.479vh;
+
     background-image: url("../images/scroll/contents/day5.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
     padding-left: 0;
     padding-bottom: 4vh;
+    padding-top: 1vh;
     list-style: none;
     margin: 0 auto;
+}
+
+nav li {
+    position:relative;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: grid;
+    place-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
 }
 
 nav li a {
