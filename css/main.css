@@ -38,9 +38,6 @@ header {
     width: 100vw;
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0);
-    border-bottom-left-radius: 4vh;
-    border-bottom-right-radius: 4vh;
     color: #fff;
     height: 8vh;
     z-index: 50;
@@ -179,12 +176,9 @@ nav li a:hover {
 footer {
     position: fixed;
     width: 100vw;
-    top: 92vh;
+    top: 90vh;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-top-left-radius: 4vh;
-    border-top-right-radius: 4vh;
-    color: #fff;
+    color: rgb(0, 0, 0);
     height: 8vh;
     z-index: 50;
 }
@@ -514,4 +508,56 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     z-index: 40;
+}
+
+.top_banner {
+    z-index: 5;
+
+    background-image: url("../images/main/top_banner.png");
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: auto 100vh;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; 
+}
+
+.bottom_banner {
+    z-index: 5;
+
+    background-image: url("../images/main/bottom_banner.png");
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: auto 100vh;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; 
+}
+
+.main_logo { 
+    z-index: 5;
+    margin-top: 2vh;
+    background-image: url("../images/main/main_logo.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    position: fixed;
+    width: 100vw;
+    height: 12vh;
+}
+
+.ot_logo {
+    position: fixed;
+    width: 100vw;
+    top: 90vh;
+    justify-content: center;
+    height: 8vh;
+    z-index: 5;
+
+    background-image: url("../images/main/ot_logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
