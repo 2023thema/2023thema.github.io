@@ -504,6 +504,48 @@ h3 {
     pointer-events: none; 
 }
 
+.story-icon {
+    position: relative;
+    top: 15vh;
+
+    background-image: url("../images/icon/book.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 16vh;
+    pointer-events: none; 
+}
+
+.problem-icon {
+    position: relative;
+    top: 15vh;
+
+    background-image: url("../images/icon/quiz_btn.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 16vh;
+    pointer-events: none; 
+}
+
+.boss-icon {
+    position: relative;
+    top: 15vh;
+
+    background-image: url("../images/icon/boss.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 16vh;
+    pointer-events: none; 
+}
+
 .bottom_banner {
     z-index: 5;
 
