@@ -120,20 +120,42 @@
             </div>
             <div>
                 <div class="roundbtn-story">
-                    <a id = "show" class="btn" style="font-size: 2vh; position: relative; left:-3vh;">
+                    <a id="show-page" class="btn" style="font-size: 2vh; position: relative; left:-3vh;">
                         모은 페이지
                     </a>
                 </div>
-                <div class="modal-background">
+                <div class="modal-background page">
                     <div class="window">
                         <div class="popup">
-                            <div style="display: flex; flex-direction: column; justify-content: space-between; padding-bottom: 10vh;">
-                                <img src="./images/page_popup/book.png" alt="book_image" style="margin: 0 auto; max-height: 50vh; max-width: 600px;">
+                            <div
+                                style="display: flex; flex-direction: column; justify-content: space-between; padding-bottom: 10vh;">
+                                <img src="./images/page_popup/book.png" alt="book_image"
+                                    style="margin: 0 auto; max-height: 50vh; max-width: 600px;">
                                 <div style="font-family: 'noto'; font-size: 2vh">
                                     현재까지 모은 페이지 수: 0개
                                 </div>
                             </div>
-                            <a class="close-popup" id="close">닫기</a>
+                            <a class="close-popup" id="close-page">닫기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="roundbtn-story">
+                    <a id="show-lecture" class="btn" style="font-size: 2vh; position: relative; left:-3vh;">
+                        강연 문제
+                    </a>
+                </div>
+                <div class="modal-background lecture">
+                    <div class="window">
+                        <div class="popup">
+                            <div
+                                style="display: flex; flex-direction: column; justify-content: space-between; padding-bottom: 10vh;">
+                                <div style="font-family: 'noto'; font-size: 2vh">
+                                    강연문제
+                                </div>
+                            </div>
+                            <a class="close-popup" id="close-lecture">닫기</a>
                         </div>
                     </div>
                 </div>
@@ -226,33 +248,39 @@
             */
         });
 
-        function show() {
-            let elements = document.querySelectorAll(".modal-background");
+        function showp() {
+            let elem = document.querySelector(".page");
 
-            for (let elem of elements) {
-                elem.className = "modal-background show"
-            }
+            elem.className = "modal-background page show"
         }
 
-        function close() {
-            let elements = document.querySelectorAll(".modal-background");
+        function showl() {
+            let elem = document.querySelector(".lecture");
 
-            for (let elem of elements) {
-                elem.className = "modal-background"
-            }
+            elem.className = "modal-background lecture show"
         }
 
-        let slist = document.querySelectorAll("#show");
+        function closep() {
+            let elem = document.querySelector(".page");
 
-        for (let s of slist) {
-            s.addEventListener("click", show)
+            elem.className = "modal-background page"
         }
 
-        let clist = document.querySelectorAll("#close");
+        function closel() {
+            let elem = document.querySelector(".lecture");
 
-        for (let c of clist) {
-            c.addEventListener("click", close)
+            elem.className = "modal-background lecture"
         }
+
+        let sp = document.querySelector("#show-page");
+        sp.addEventListener("click", showp)
+        let sl = document.querySelector("#show-lecture");
+        sl.addEventListener("click", showl)
+
+        let cp = document.querySelector("#close-page");
+        cp.addEventListener("click", closep)
+        let cl = document.querySelector("#close-lecture");
+        cl.addEventListener("click", closel)
     </script>
 </body>
 
