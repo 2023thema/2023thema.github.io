@@ -348,7 +348,7 @@ h3 {
 
     /* 임시 지정 */
     width: 80%;
-    max-width: 400px;
+    max-width: 60vh;
     height: 60%;
 
     /* 초기에 약간 아래에 배치 */
