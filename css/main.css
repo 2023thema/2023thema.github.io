@@ -384,6 +384,20 @@ h3 {
     transition: .3s;
 }
 
+.question-btn {
+    position: fixed;
+    height: 4vh;
+    width: 10.268vh;
+    left: 2vh;
+    bottom: 10vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/question.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 5000;
+}
+
 
 .btn {
     font-family: 'noto';
