@@ -148,3 +148,61 @@ img {
     height: 8vh;
     pointer-events: none; 
 }
+
+.top_left {
+    z-index: 5;
+
+    background-image: url("../images/page/left.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    width: 16.856vh;
+    height: 8vh;
+    pointer-events: none; 
+}
+
+.top_right {
+    z-index: 5;
+
+    background-image: url("../images/page/right.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    width: 16.856vh;
+    height: 8vh;
+    pointer-events: none; 
+}
+
+.bottom_left {
+    z-index: 5;
+
+    background-image: url("../images/page/left.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 92vh;
+    left: 0;
+    width: 16.856vh;
+    height: 8vh;
+    pointer-events: none; 
+}
+
+.bottom_right {
+    z-index: 5;
+
+    background-image: url("../images/page/right.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 92vh;
+    right: 0;
+    width: 16.856vh;
+    height: 8vh;
+    pointer-events: none; 
+}
