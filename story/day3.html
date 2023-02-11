@@ -15,12 +15,10 @@
 <body>
     <div class="top_page_banner"></div>
     <div class="bottom_page_banner"></div>
-    <div class="main_logo"></div>
+    <div onclick="location.href='../index.html';" class="main_logo"></div>
     <div class="ot_logo"></div>
-    <nav>
-        <a href="../index.html" class="home">메인화면</a>
-        <a href="https://open.kakao.com/o/sDcROJ0e" class="question">민원 창구</a>
-    </nav>
+    <div class = "story-icon"></div>
+    
     <div class="scroll-container">
         <div class="story">
             지곡에서 문지기가 선배와 새내기들의 앞길을 막았을 때, 모두 아무것도 하지 못하고 속수무책으로 당하기만 했다.
@@ -111,6 +109,12 @@
             새내기들은 이만 쉬기로 결정했다. 아무리 모험 중이라고 해도 잠은 침대에서 자야지.
         </div>
     </div>
+    <a class="top-btn"></a>
+    <script>
+        let topBtn = document.querySelector(".top-btn");
+        topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+        window.onscroll = () => window.scrollY > 500 ? topBtn.style.opacity = 1 : topBtn.style.opacity = 0
+    </script>
 </body>
 
 </html>

@@ -15,12 +15,10 @@
 <body>
     <div class="top_page_banner"></div>
     <div class="bottom_page_banner"></div>
-    <div class="main_logo"></div>
+    <div onclick="location.href='../index.html';" class="main_logo"></div>
     <div class="ot_logo"></div>
-    <nav>
-        <a href="../index.html" class="home">메인화면</a>
-        <a href="https://open.kakao.com/o/sDcROJ0e" class="question">민원 창구</a>
-    </nav>
+    <div class = "story-icon"></div>
+    
     <div class="scroll-container">
         <div class="story">
             모험의 첫날. 새내기들은 두근거리는 마음으로 하루의 첫 발을 내디뎠다.
@@ -122,6 +120,12 @@
             새내기들은 조각을 챙겨 짐을 풀고 잠시 이곳에서 쉬기로 했다.
         </div>
     </div>
+    <a class="top-btn"></a>
+    <script>
+        let topBtn = document.querySelector(".top-btn");
+        topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+        window.onscroll = () => window.scrollY > 500 ? topBtn.style.opacity = 1 : topBtn.style.opacity = 0
+    </script>
 </body>
 
 </html>

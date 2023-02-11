@@ -273,19 +273,6 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#story {
-    font-size: 5vw;
-    width: 90vw;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    text-align: center;
-    display: grid;
-    place-items: center;
-    align-items: center;
-    height: 20vh;
-    color: rgb(29, 8, 8);
-}
-
 #sentence {
     font-size: 4vw;
     margin-top: 5vw;
@@ -381,15 +368,14 @@ h3 {
 }
 
 .top-btn {
-    all: unset;
     position: fixed;
     width: 50px;
     height: 50px;
     right: 50px;
-    bottom: 50px;
+    bottom: 10vh;
     padding: 0;
     margin: 0;
-    background-image: url("./images/arrow.png");
+    background-image: url("../images/arrow.png");
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 5000;
@@ -518,6 +504,48 @@ h3 {
     background-size: contain;
     position: fixed;
     width: 100vw;
+    height: 16vh;
+    pointer-events: none; 
+}
+
+.story-icon {
+    position: relative;
+    top: 15vh;
+
+    background-image: url("../images/icon/book.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 16vh;
+    pointer-events: none; 
+}
+
+.problem-icon {
+    position: relative;
+    top: 15vh;
+
+    background-image: url("../images/icon/quiz_btn.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 16vh;
+    pointer-events: none; 
+}
+
+.boss-icon {
+    position: relative;
+    top: 15vh;
+
+    background-image: url("../images/icon/boss.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
     height: 16vh;
     pointer-events: none; 
 }

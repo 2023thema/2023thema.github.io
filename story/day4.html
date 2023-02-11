@@ -15,12 +15,10 @@
 <body>
     <div class="top_page_banner"></div>
     <div class="bottom_page_banner"></div>
-    <div class="main_logo"></div>
+    <div onclick="location.href='../index.html';" class="main_logo"></div>
     <div class="ot_logo"></div>
-    <nav>
-        <a href="../index.html" class="home">메인화면</a>
-        <a href="https://open.kakao.com/o/sDcROJ0e" class="question">민원 창구</a>
-    </nav>
+    <div class = "story-icon"></div>
+    
     <div class="scroll-container">
         <div class="story">
             빠빠빠~ 굿모닝~ 빠빠빠빠빠빠빠빠빠 굿모닝~
@@ -247,6 +245,12 @@
             몇 넉살 좋은 새내기들이 침울한 분위기 속에서 보답은 됐으니 가보라며 선배(not 생공과 yes 생명과)의 등을 쳐주었다.
         </div>
     </div>
+    <a class="top-btn"></a>
+    <script>
+        let topBtn = document.querySelector(".top-btn");
+        topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+        window.onscroll = () => window.scrollY > 500 ? topBtn.style.opacity = 1 : topBtn.style.opacity = 0
+    </script>
 </body>
 
 </html>
