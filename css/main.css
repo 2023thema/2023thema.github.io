@@ -353,6 +353,10 @@ h3 {
 
     /* 초기에 약간 아래에 배치 */
     transform: translate(-50%, -40%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .show .popup {
