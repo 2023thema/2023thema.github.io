@@ -273,19 +273,6 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#story {
-    font-size: 5vw;
-    width: 90vw;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    text-align: center;
-    display: grid;
-    place-items: center;
-    align-items: center;
-    height: 20vh;
-    color: rgb(29, 8, 8);
-}
-
 #sentence {
     font-size: 4vw;
     margin-top: 5vw;
