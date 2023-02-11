@@ -387,10 +387,10 @@ h3 {
 
 .question-btn {
     position: fixed;
-    height: 4vh;
-    width: 10.268vh;
-    left: 2vh;
-    bottom: 13vh;
+    height: 3vh;
+    width: 7.701vh;
+    right: 2vh;
+    top: 13vh;
     padding: 0;
     margin: 0;
     background-image: url("../images/question.png");
