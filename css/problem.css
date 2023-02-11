@@ -57,12 +57,14 @@ body {
 }
 
 .submitbtn {
-    width: 40vw;
-    height: 10vh;
+    width: 200px;
+    height: 48px;
     font-size: 36px;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    background-color: rgba(172, 120, 36, 0.3);
 }
 
 .submitbtn {
