@@ -30,10 +30,11 @@
             </div>
             <div>
                 <div class="roundbtn-1 menuBtn-1">
-                    <div>
+                    <div style="display: flex; justify-content: space-between;">
                         <img src="./images/icon/day1_pass.png" style="
-                        height: 3vh; 
-                        vertical-align: baseline;
+                        height: 4vh; 
+                        margin-top: auto;
+                        margin-bottom: auto;
                         margin-right: 1vh;
                         display:inline;">
                         <a class="btn" style="display:inline;">
@@ -55,8 +56,17 @@
                     <a class="btn">
                         2일차
                     </a>
-                    <div class="lock"></div>
                 </div>
+                <nav id="navigation-list-2" style="all:unset;">
+                    <ul class="navi-2">
+                        <li><img src="./images/icon/book.png"><a href="./story/day2_z5sq12w4.html">메인 스토리</a></li>
+                        <li><img src="./images/icon/quiz_btn.png"><a href="./low/police.html">경찰과 도둑</a></li>
+                        <li><img src="./images/icon/quiz_btn.png"><a href="./mid/self.html">선배의 첫 문제</a></li>
+                        <li><img src="./images/icon/quiz_btn.png"><a href="./mid/matchstick.html">성냥놀이</a></li>
+                        <li><img src="./images/icon/quiz_btn.png"><a href="./detail/past.html">그의 과거</a></li>
+                        <li><img src="./images/icon/boss.png"><a href="./high/chess.html">문지기의 문제</a></li>
+                    </ul>
+                </nav>
             </div>
             <div>
                 <div class="roundbtn-3 menuBtn-3">
@@ -148,7 +158,6 @@
                 $(".menuBtn-4").css("height", "5vh");
                 $(".menuBtn-5").css("height", "5vh");
             });
-            /*
             $(".menuBtn-2").click(function () {
                 $("#navigation-list-1").hide();
                 $("#navigation-list-3").hide();
@@ -164,6 +173,7 @@
                 $(".menuBtn-4").css("height", "5vh");
                 $(".menuBtn-5").css("height", "5vh");
             });
+            /*
             $(".menuBtn-3").click(function () {
                 $("#navigation-list-1").hide();
                 $("#navigation-list-2").hide();
