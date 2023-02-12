@@ -551,11 +551,39 @@ h3 {
     pointer-events: none; 
 }
 
+.problem-clear-icon {
+    position: relative;
+    top: 15vh;
+
+    background-image: url("../images/icon/check_btn.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 16vh;
+    pointer-events: none; 
+}
+
 .boss-icon {
     position: relative;
     top: 15vh;
 
     background-image: url("../images/icon/boss.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 16vh;
+    pointer-events: none; 
+}
+
+.boss-clear-icon {
+    position: relative;
+    top: 15vh;
+
+    background-image: url("../images/icon/boss_pass.png");
     background-repeat: repeat-x;
     background-position: center;
     background-size: contain;
