@@ -17,7 +17,7 @@ body {
     margin-right: 10vw;
     margin-bottom: 4vh;
     text-align: justify;
-    font-size: 1.5vh;
+    font-size: 2vh;
     font-family: 'noto';
     word-break: keep-all;
     text-indent: 2vw;
@@ -28,7 +28,7 @@ body {
     margin-right: 10vw;
     margin-bottom: 4vh;
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     font-family: 'noto';
     font-style: italic; 
     word-break: keep-all;
@@ -39,7 +39,7 @@ body {
     margin-right: 10vw;
     margin-bottom: 4vh;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-family: 'noto';
     word-break: keep-all;
 }
