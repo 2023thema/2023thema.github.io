@@ -178,6 +178,7 @@ nav li a {
     font-family: 'noto';
     font-size: 1.5vh;
     font-weight: bold;
+    word-break: keep-all;
 }
 
 nav li img {
